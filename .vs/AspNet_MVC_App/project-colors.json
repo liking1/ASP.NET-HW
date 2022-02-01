@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7972fc83-5e66-470d-bc4e-85d5dd3078c4": {
+      "ProjectGuid": "7972fc83-5e66-470d-bc4e-85d5dd3078c4",
+      "DisplayName": "Salon.Data",
+      "ColorIndex": 0
+    },
+    "aaa96813-1722-43d1-a06b-c674c55a8936": {
+      "ProjectGuid": "aaa96813-1722-43d1-a06b-c674c55a8936",
+      "DisplayName": "AspNet_MVC_App",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

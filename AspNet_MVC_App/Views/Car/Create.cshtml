@@ -1,0 +1,77 @@
+﻿@model AspNet_MVC_App.Models.ViewModels.CarVM;
+@{
+    var title = "Create a New Car";
+}
+<div>
+    <form method="post" enctype="multipart/form-data" asp-action="Create">
+        @if (Model.Car != null)
+        {
+            // this is update action
+            title = "Update Car";
+        }
+        <h2 class="mb-3">@title</h2>
+
+        <div class="form-group row">
+            <label asp-for="Car.Model" class="col-4"></label>
+            <input id="modelInput" asp-for="Car.Model" class="form-control col-8">
+            <span asp-validation-for="Car.Model" class="offset-4 text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Car.Color" class="col-4"></label>
+            <input asp-for="Car.Color" class="form-control col-8">
+            <span asp-validation-for="Car.Color" class="offset-4 text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Car.Description" class="col-4"></label>
+            <textarea asp-for="Car.Description" class="form-control col-8 summernote"></textarea>
+            <span asp-validation-for="Car.Description" class="offset-4 text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Car.CategoryId" class="col-4"></label>
+            <select asp-for="Car.CategoryId" asp-items="@Model.Categories" class="form-control col-8">
+                <option selected disabled>--Select Category--</option>
+            </select>
+            <span asp-validation-for="Car.CategoryId" class="offset-4 text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Car.ManufactureDate" class="col-4"></label>
+            <input asp-for="Car.ManufactureDate" class="form-control col-8">
+            <span asp-validation-for="Car.ManufactureDate" class="offset-4 text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label asp-for="Car.Image" class="col-4"></label>
+            <input type="file" name="files" class="form-control col-8">
+        </div>
+        <div class="form-group row">
+            <div class="col-6">
+                <input type="submit" onclick="validateInputs()" class="btn btn-success w-100" value="Create" />
+            </div>
+            <div class="col-6">
+                <a asp-action="Index" class="btn btn-dark w-100">Back</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@* Client Validation *@
+@section Scripts
+{
+    @{ <partial name="_ValidationScriptsPartial.cshtml"/> }
+    <script>
+        function validateInputs() {
+            const modelInput = document.getElementById("modelInput");
+            if (modelInput.value == "") {
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'You must enter a valid model!',
+                    icon: 'error',
+                    confirmButtonText: 'Ok'
+                });
+            }
+        }
+
+        $(document).ready(function () {
+            $('.summernote').summernote();
+        });
+    </script>
+}

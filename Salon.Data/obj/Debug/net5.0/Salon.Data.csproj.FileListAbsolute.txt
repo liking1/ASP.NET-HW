@@ -1,0 +1,15 @@
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\bin\Debug\net5.0\Salon.Data.deps.json
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\bin\Debug\net5.0\Salon.Data.runtimeconfig.json
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\bin\Debug\net5.0\Salon.Data.runtimeconfig.dev.json
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\bin\Debug\net5.0\Salon.Data.dll
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\bin\Debug\net5.0\ref\Salon.Data.dll
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\bin\Debug\net5.0\Salon.Data.pdb
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.csproj.AssemblyReference.cache
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.AssemblyInfoInputs.cache
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.AssemblyInfo.cs
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.csproj.CoreCompileInputs.cache
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.dll
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\ref\Salon.Data.dll
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.pdb
+C:\Users\VladiSlave\Source\Repos\ASP.NET-MVC-Intro-Car-Salon12\Salon.Data\obj\Debug\net5.0\Salon.Data.genruntimeconfig.cache

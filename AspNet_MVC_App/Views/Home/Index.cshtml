@@ -1,0 +1,12 @@
+﻿@model AspNet_MVC_App.Models.ViewModels.HomeVM;
+
+<div class="text-center">
+    <h2>Products</h2>
+    <br />
+
+        @foreach (var car in @Model.Cars)
+        {
+            // render all cars
+            <partial name="_CarCardPartial" model="@car"/>
+        }
+</div>
